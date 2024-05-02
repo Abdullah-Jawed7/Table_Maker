@@ -1,0 +1,22 @@
+{
+  "name": "@oneandonly/table_maker",
+  "version": "1.2.0",
+  "description": "Make a table of any digit easily",
+  "main": "index.js",
+  "type": "module",
+  "bin": "main.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abdullah",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.20"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
