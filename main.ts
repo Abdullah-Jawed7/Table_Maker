@@ -1,4 +1,4 @@
-#! /usr/bin/env  node 
+#! /usr/bin/env  node
 import inquirer from "inquirer";
 import chalk from "chalk";
 console.log(chalk.bgRed(`\n\t\t Welcome to Table Writer `));
@@ -23,12 +23,10 @@ let multipl = await inquirer.prompt([
   },
 ]);
 
-let nums = multipl.Multiple  //Multiple;
-let count =multipl.Multiplant
- 
-for (let i = 1 ; i <= count; i++ ){
-    console.log(`${nums} x ${i} = ${nums * i}`);
-    
+let nums = multipl.Multiple; //Multiple;
+let count = multipl.Multiplant;
+
+for (let i = 1; i <= count; i++) {
+  console.log(`${nums} x ${i} = ${nums * i}`);
 }
- console.log(chalk.bgRedBright(`\n\t\t Thank you`));
- 
+console.log(chalk.bgRedBright(`\n\t\t Thank you`));
